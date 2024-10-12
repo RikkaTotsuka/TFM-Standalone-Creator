@@ -2,7 +2,14 @@
 created in python 2.0 and updated to 3.0 a standalone creator for transformice server via python
 
 >**how to use?**
+- Pillow (PIL) - To work with images.
 
+- Installation: pip install Pillow
+- Tkinter - To create the graphical interface. This module usually comes with Python, but it is good to mention it to make sure users know it is necessary.
+
+- Urllib - To make HTTP requests, also comes with Python by default.
+
+- Os - Module for interactions with the operating system, already included in Python.
 - just run the CreateStand.py and it will open a cmd and a window like the one below.
 - After you click create, it will create a folder exactly in the program repository with the name you chose.
 
