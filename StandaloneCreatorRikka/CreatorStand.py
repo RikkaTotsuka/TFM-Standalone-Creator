@@ -19,7 +19,7 @@ def enter(event):
 
 
 def open_github():
-    webbrowser.open("https://github.com/RikkaTotsuka")  # Substitua 'seu_usuario' pelo seu nome de usuário do GitHub
+    webbrowser.open("https://github.com/RikkaTotsuka")
 
 
 def create():
