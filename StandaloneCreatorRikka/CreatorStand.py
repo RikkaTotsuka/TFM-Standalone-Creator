@@ -97,8 +97,8 @@ root.configure(bg='black')  # Fundo preto
 parent = tk.Frame(root, padx=10, pady=10, bg='black')
 parent.pack(fill=tk.BOTH, expand=True)
 
-# Adicionando o Label com a mensagem "Criado por Rikka Totsuka"
-header_label = tk.Label(parent, text="Criado por Rikka Totsuka", font=("Helvetica", 12, "bold"), bg='black', fg='white')
+# Adicionando o Label
+header_label = tk.Label(parent, text="Rikka Totsuka", font=("Helvetica", 12, "bold"), bg='black', fg='white')
 header_label.pack(side=tk.TOP, pady=(5, 10))  # Mais espaçamento acima do header
 
 mice_name = make_entry(parent, 'Nome do Mice:', 16, bg='black', fg='white')
