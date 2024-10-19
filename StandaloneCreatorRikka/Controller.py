@@ -2,7 +2,7 @@ import time
 import os
 
 def main():
-    data = os.system("Emulador.py")
+    data = os.system("CreatorStand.py")
     if data == 1:
         print "[ERROR] Erro nas Portas server. Reiniciar servidor 10 seconds"
         time.sleep(10)
